@@ -39,3 +39,7 @@
     #when: disable_default
     notify:
         - Restart Apache
+
+  - name: Print all available facts
+    ansible.builtin.debug:
+      var: ansible_facts
