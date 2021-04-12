@@ -39,5 +39,3 @@
     #when: disable_default
     notify:
         - Restart Apache
-
-  
